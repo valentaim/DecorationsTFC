@@ -54,14 +54,14 @@ sourceSets {
    }
  }
  
-task copyJar(type: Copy) {
-     from('build/libs') {
-		include '**/*.jar'
-	 }
-     into 'C:/Users/Aleksey/AppData/Roaming/.minecraft_tfc/mods'
- }
- 
-tasks.build.dependsOn('copyJar')
+//task copyJar(type: Copy) {
+//     from('build/libs') {
+//		include '**/*.jar'
+//	 }
+//     into 'C:/Users/Aleksey/AppData/Roaming/.minecraft_tfc/mods'
+// }
+//
+//tasks.build.dependsOn('copyJar')
 
 dependencies {
     // Copy "[1.7.10]TerraFirmaCraft-0.79.21.741.jar" file
